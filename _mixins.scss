@@ -1,0 +1,5 @@
+@mixin nth {
+    tr:nth-child(odd) {
+      background-color: rgb(197, 120, 19);
+    }
+  }

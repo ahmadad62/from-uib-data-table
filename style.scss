@@ -1,0 +1,16 @@
+@import "mixins";
+
+table{
+  width: 100%;
+  height: 30%;
+  border: 5px solid rgb(242, 236, 236);
+  tbody {
+    @include nth;
+  }
+  td{
+    border: 1px solid lightblue;
+  }
+  thead{
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+  height: 30%;
+  border: 5px solid rgb(242, 236, 236);
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgb(197, 120, 19);
+}
+table td {
+  border: 1px solid lightblue;
+}
+table thead {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
